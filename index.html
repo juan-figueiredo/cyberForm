@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk Form</title>
+  <style>
+    body {
+      background-color: #111;
+      color: #00ffcc;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 30px;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input {
+      width: 95%;
+      padding: 10px;
+      margin-bottom: 15px;
+      background-color: #333;
+      border: 1px solid #00ffcc;
+      border-radius: 5px;
+      color: #fff;
+    }
+
+    button {
+      background-color: #00ffcc;
+      color: #111;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background-color: #008877;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <h1>Cyberpunk Form</h1>
+
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
